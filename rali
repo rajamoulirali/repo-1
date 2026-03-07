@@ -1,19 +1,6 @@
-git revert (Simple Explanation)
-
-git revert is used to undo a commit, but without deleting the commit history.
-
-Instead, Git creates a new commit that reverses the changes made by a previous commit.
-
-Simple Idea
-
 Suppose you added a wrong change.
-
 Commit history:
-
 Commit1 → Commit2 → Commit3
-
 If Commit3 is wrong, run:
-
 git revert <commit-id>
-
 Git will create a new commit that cancels Commit3 changes.
