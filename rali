@@ -11,20 +11,6 @@ master → branch name
 It only pushes the code.
 Real Scenario
 
-You pushed wrong code to GitHub.
-
-Instead of deleting history, use:
-
-Next time when you push, you must again specify:
-
-git push origin master
-2️⃣ git push -u origin master
-git push -u origin master
-
--u means --set-upstream
-
-This command:
-
 Pushes the branch
 
 Links local branch with remote branch
