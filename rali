@@ -5,20 +5,15 @@ If Commit3 is wrong, run:
 git revert <commit-id>
 Git will create a new commit that cancels Commit3 changes.
 The difference is about setting upstream (tracking) branch.
-
-1️⃣ git push origin master
-
-This command pushes the master branch to the remote repository.
-
-git push origin master
-
 Meaning:
-
-origin → remote repository
-
+origin  remote repository
 master → branch name
-
 It only pushes the code.
+Real Scenario
+
+You pushed wrong code to GitHub.
+
+Instead of deleting history, use:
 
 Next time when you push, you must again specify:
 
