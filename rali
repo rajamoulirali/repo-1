@@ -4,6 +4,12 @@ Commit1 → Commit2 → Commit3
 If Commit3 is wrong, run:
 git revert <commit-id>
 Git will create a new commit that cancels Commit3 changes.
+The difference is about setting upstream (tracking) branch.
+Meaning:
+origin  remote repository
+master → branch name
+It only pushes the code.
+Real Scenario
 
 Pushes the branch
 
