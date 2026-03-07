@@ -4,3 +4,36 @@ Commit1 → Commit2 → Commit3
 If Commit3 is wrong, run:
 git revert <commit-id>
 Git will create a new commit that cancels Commit3 changes.
+The difference is about setting upstream (tracking) branch.
+
+1️⃣ git push origin master
+
+This command pushes the master branch to the remote repository.
+
+git push origin master
+
+Meaning:
+
+origin → remote repository
+
+master → branch name
+
+It only pushes the code.
+
+Next time when you push, you must again specify:
+
+git push origin master
+2️⃣ git push -u origin master
+git push -u origin master
+
+-u means --set-upstream
+
+This command:
+
+Pushes the branch
+
+Links local branch with remote branch
+
+So Git remembers the remote branch.
+
+After that you can simply run:
