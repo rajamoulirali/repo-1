@@ -10,3 +10,11 @@ origin  remote repository
 master → branch name
 It only pushes the code.
 Real Scenario
+
+Pushes the branch
+
+Links local branch with remote branch
+
+So Git remembers the remote branch.
+
+After that you can simply run:
